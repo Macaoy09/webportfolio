@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+/*add a smooth scroll*/
+html {
+  scroll-behavior: smooth;
+}
+
 /*Adds the color of the text*/
 .custom-color {
 	color: #00b7ff;
@@ -40,5 +45,21 @@
 .custom-text-align {
 	text-align: left;
 	font-weight: 400;
+	font-size: 1em;
+}
+
+.custom-img-size {
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg-color {
+	background-color: #8db600;
+}
+
+.custom-text-size {
+	color: gray;
 	font-size: 1em;
 }
