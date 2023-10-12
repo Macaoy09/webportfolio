@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Adds the color of the text*/
+.custom-color {
+	color: #00b7ff;
+}
+
+/*Updates the font size and case of the text*/
+.custom-style {
+	font-size: 3em;
+	text-transform: uppercase;
+	justify-content: center;
+}
+
+/*add margin at the top*/
+.margin-top {
+	margin-top: 250px;
+}
+
+.custom-padding {
+	padding-top: 200px;
+}
+
+/*disable margin when screen size change*/
+@media (max-width: 376px) {
+	.margin-top {
+		margin: 0px;
+	}
+}
+
+.custom-img-style {
+	width: 75%;
+	height: 75%;
+}
+
+.custom-text-align {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1em;
+}
