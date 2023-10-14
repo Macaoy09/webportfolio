@@ -31,7 +31,7 @@ html {
 }
 
 /*disable margin when screen size change*/
-@media (max-width: 376px) {
+@media (max-width: 821px) {
 	.margin-top {
 		margin: 0px;
 	}
@@ -62,4 +62,8 @@ html {
 .custom-text-size {
 	color: gray;
 	font-size: 1em;
+}
+
+#name, #landing-text, #tools-text, #project-text, #contact-text{
+	color: #8db600;
 }
