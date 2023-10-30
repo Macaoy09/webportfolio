@@ -11,7 +11,8 @@ html {
 
 /*Adds the color of the text*/
 .custom-color {
-	color: #00b7ff;
+/*	color: #00b7ff;*/
+		color: #8db600;
 }
 
 /*Updates the font size and case of the text*/
@@ -23,7 +24,7 @@ html {
 
 /*add margin at the top*/
 .margin-top {
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 .custom-padding {
@@ -67,3 +68,13 @@ html {
 #name, #landing-text, #tools-text, #project-text, #contact-text{
 	color: #8db600;
 }
+
+#profile-img {
+	border-radius: 50%;
+	border: solid #8db600 10px;
+}
+
+.margin-heading {
+	margin-top: 85px;
+}
+
